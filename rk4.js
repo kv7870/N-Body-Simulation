@@ -40,7 +40,7 @@ var timeElapsed = 0;
 
 //resolution
 var SCREEN_W = 1920;
-var SCREEN_H = 1980;
+var SCREEN_H = 1080;
 
  planet[0] = new Body("Earth", earthM, earthR, 900 *SCALE, 440 *SCALE, 30300, 0, 0, 255, 0);
  planet[1] =  new Body("Sun", earthM*333000, earthR*5, 960 *SCALE, 540 *SCALE, 0, 0, 255, 255, 0);
