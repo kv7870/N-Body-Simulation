@@ -4,7 +4,7 @@ var G = 6.67408e-11;
 //draw options box
 var drawBox = false;
 //coordinates of options box
-var bx = 1600, by = 0, bw = 1600, bh = 937;
+var bx = 1600, by = 0, bw = 1600, bh = 1080;
 
 //array of planets
  var planet = [];
@@ -34,13 +34,13 @@ var id = 0;
 var timeElapsed = 0;
 
 //want to represent distance from Earth to Neptune on screen;
-//dist Earth-Neptune is ~18 * dist Earth-Sun; canvas is 1900 pixels wide, and 1900/18 ~= 100
+//dist Earth-Neptune is ~18 * dist Earth-Sun; canvas is 1920 pixels wide, and 1900/18 ~= 100
 //therefore let 100 pixels represent dist Earth-Sun
  var SCALE = distES/100;
 
 //resolution
-var SCREEN_W = 1900;
-var SCREEN_H = 937;
+var SCREEN_W = 1920;
+var SCREEN_H = 1980;
 
  planet[0] = new Body("Earth", earthM, earthR, 900 *SCALE, 440 *SCALE, 30300, 0, 0, 255, 0);
  planet[1] =  new Body("Sun", earthM*333000, earthR*5, 960 *SCALE, 540 *SCALE, 0, 0, 255, 255, 0);
