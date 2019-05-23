@@ -26,7 +26,7 @@ function mousePressed() {
     if((drawBox && mouseX<bx) || !drawBox) {
       selectedPlanet = id;
       var r = Math.random()*(256-100)+100;
-      var g = Math.random()*(256-100)+10;
+      var g = Math.random()*(256-100)+100;
       var b = Math.random()*(256-100)+100;
       //create planet at coordinates of cursor at time of mouse click
       var tempPlanet = new Body("Planet " + (id+1), 5.972e20, 10, mouseX*SCALE, mouseY*SCALE, -1000, -3030.0,
