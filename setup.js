@@ -64,7 +64,7 @@ function setup() {
   //"Select" button which, when pressed,
   //lets user click on existing planets to adjust its properties
   bSelect = createButton("Select");
-  bSelect.position(930, 850);
+  bSelect.position(990, 850);
   bSelect.style('width', '125px');
   bSelect.style('height', '50px');
   bSelect.style('font-size', '18px');
@@ -72,7 +72,7 @@ function setup() {
   //"New planet" button which, when pressed,
   //lets user spawn a new planet at location of mouse click
   bAdd = createButton("New planet");
-  bAdd.position(700, 850);
+  bAdd.position(760, 850);
   bAdd.style('width', '125px');
   bAdd.style('height', '50px');
   bAdd.style('font-size', '18px');
