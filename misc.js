@@ -170,11 +170,6 @@ function aabb() {
   }
 }
 
-
-/*function updateMass() {
-  planet[selectedPlanet].mass = mSlider.value();
-}*/
-
 function updateVx() {
   planet[selectedPlanet].vx = vxSlider.value();
 }
